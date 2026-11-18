@@ -13,30 +13,7 @@
 	.summary-stack{grid-column:1/-1;display:grid;grid-template-columns:1fr;overflow:hidden;border:1px solid var(--border);border-radius:16px;background:var(--surface)}
 	.summary-stack :global(.card){border:0;border-radius:0;background:transparent}
 	.summary-stack :global(.card+.card){border-top:1px solid var(--border)}
-	.dashboard-page :global(.heading h1),
-	.dashboard-page :global(.card h2),
-	.dashboard-page :global(.big-number),
-	.dashboard-page :global(.receivable strong),
-	.dashboard-page :global(.profit strong),
-	.dashboard-page :global(.split b),
-	.dashboard-page :global(.card li>b){font-size:16px}
-	.dashboard-page :global(.eyebrow),
-	.dashboard-page :global(.heading .eyebrow),
-	.dashboard-page :global(.kicker),
-	.dashboard-page :global(.hero-note),
-	.dashboard-page :global(.card small),
-	.dashboard-page :global(.receivable>a),
-	.dashboard-page :global(.row-between>a),
-	.dashboard-page :global(.text-link){font-size:12px}
-	.dashboard-page :global(.heading p),
-	.dashboard-page :global(.card li),
-	.dashboard-page :global(button.primary),
-	.dashboard-page :global(.heading>.primary),
-	.dashboard-page :global(.empty){font-size:14px}
-	.dashboard-page :global(.item-dot),
-	.dashboard-page :global(.activity-icon){width:26px;height:26px;border-radius:8px}
-	.dashboard-page :global(img){width:14px;height:14px}
-	.dashboard-page :global(.spark img),
-	.dashboard-page :global(.orb img){width:16px;height:16px}
+	.dashboard-page :global(*){font-size:12px!important}
+	.dashboard-page :global(img){width:12px;height:12px}
 }
 </style>
