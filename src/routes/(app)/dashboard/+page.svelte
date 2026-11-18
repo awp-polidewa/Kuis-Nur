@@ -13,7 +13,5 @@
 	.summary-stack{grid-column:1/-1;display:grid;grid-template-columns:1fr;overflow:hidden;border:1px solid var(--border);border-radius:16px;background:var(--surface)}
 	.summary-stack :global(.card){border:0;border-radius:0;background:transparent}
 	.summary-stack :global(.card+.card){border-top:1px solid var(--border)}
-	.dashboard-page :global(*){font-size:12px!important}
-	.dashboard-page :global(img){width:12px;height:12px}
 }
 </style>
